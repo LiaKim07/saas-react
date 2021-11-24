@@ -18,6 +18,7 @@ function App() {
         <Pace color={theme.palette.primary.light} />
         <Suspense fallback={<Fragment />}>
           <Switch>
+//             This is the route...
             <Route path="/c">
               <LoggedInComponent />
             </Route>

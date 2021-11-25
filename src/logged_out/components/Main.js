@@ -24,6 +24,7 @@ const styles = (theme) => ({
 function Main(props) {
   const { classes } = props;
   const [selectedTab, setSelectedTab] = useState(null);
+  const [otherState, setOtherState] = useState({});
   const [isMobileDrawerOpen, setIsMobileDrawerOpen] = useState(false);
   const [blogPosts, setBlogPosts] = useState([]);
   const [dialogOpen, setDialogOpen] = useState(null);

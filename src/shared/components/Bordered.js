@@ -20,6 +20,7 @@ function Bordered(props) {
     children,
     variant
   } = props;
+  // return main component...
   return (
     <div
       className={variant === "greyed" ? classes.greyed : classes.wrapper}

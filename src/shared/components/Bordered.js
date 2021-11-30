@@ -8,6 +8,9 @@ const styles = theme => ({
   },
   greyed: {
     border: `${theme.border.borderWidth}px solid rgba(0, 0, 0, 0.23)`
+  },
+  turned: {
+    border: `${theme.border.borderWidth}px solid rgba(0.5, 0.3, 0, 0.23)`
   }
 });
 
